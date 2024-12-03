@@ -20,3 +20,19 @@ venv/
 # Windows Thumbs.db
 Thumbs.db
 database.db
+
+# Ignore virtual environment folder
+venv/
+
+# Ignore Python cache
+__pycache__/
+
+# Ignore log files
+*.log
+
+# Ignore configuration files
+*.env
+
+# Ensure model and image files are not ignored
+!models/
+!static/images/
