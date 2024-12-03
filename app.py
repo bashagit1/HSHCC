@@ -98,18 +98,18 @@ def show_dashboard():
         exec(Path("pages/health_monitoring.py").read_text())
     elif page == "Staff Management":
         exec(Path("pages/staff_management.py").read_text())
-    elif page == "Family Portal":
+    elif page == "family Portal":
         exec(Path("pages/family_portal.py").read_text())
     elif page == "Reports":
         exec(Path("pages/reports.py").read_text())
     elif page == "AI Predictions":
-        exec(Path("pages/ai_predictions.py").read_text())
+        exec(Path("pages/Ai_predictions.py").read_text())
     elif page == "Cognitive Stimulation":
         exec(Path("pages/cognitive_stimulation.py").read_text())
     elif page == "Activity Planning":
         exec(Path("pages/activity_planning.py").read_text())
     elif page == "Nutrition Management":
-        exec(Path("pages/nutrition_management.py").read_text())
+        exec(Path("pages/Nutrition_Management.py").read_text())
     elif page == "Smart Room Integration":
         exec(Path("pages/smart_room_integration.py").read_text())
     elif page == "Medication Management":
