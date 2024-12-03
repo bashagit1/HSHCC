@@ -77,10 +77,10 @@ def show_dashboard():
         page = st.sidebar.radio(
             "Navigate",
             (
-                "Resident Management",
-                "Health Monitoring",
-                "Activity Planning",
-                "Visitor Management",
+                "resident management",
+                "health monitoring",
+                "activity planning",
+                "visitor management",
             ),
         )
     elif st.session_state.role == "family":
@@ -88,7 +88,7 @@ def show_dashboard():
         # Family can only access family portal
         page = st.sidebar.radio(
             "Navigate",
-            ("Family Portal",),
+            ("family Portal",),
         )
 
     # Dynamically load pages
