@@ -99,7 +99,7 @@ def show_dashboard():
     elif page == "Staff Management":
         exec(Path("pages/staff_management.py").read_text())
     elif page == "family Portal":
-        exec(Path("pages/family_portal.py").read_text())
+        exec(Path("pages/family_Portal.py").read_text())
     elif page == "Reports":
         exec(Path("pages/reports.py").read_text())
     elif page == "AI Predictions":
