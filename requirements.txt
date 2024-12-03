@@ -1,0 +1,9 @@
+streamlit
+pandas
+numpy
+sqlite3
+tensorflow
+scikit-learn
+gtts
+python-dotenv
+pathlib

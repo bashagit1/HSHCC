@@ -1,0 +1,22 @@
+# Python-related files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.python_version
+.venv/
+venv/
+.env
+
+# Streamlit-related
+.streamlit/
+
+# VS Code settings
+.vscode/
+
+# macOS Finder
+.DS_Store
+
+# Windows Thumbs.db
+Thumbs.db
+database.db
